@@ -1,0 +1,20 @@
+[
+    {
+        "id": 9,
+        "name": "Bush Collection Bookcase",
+        "category": "Furniture",
+        "sales": 122.0
+    },
+    {
+        "id": 2,
+        "name": "Kitchen Table",
+        "category": "Furniture",
+        "sales": 5.0
+    },
+    {
+        "id": 10,
+        "name": "Sunrise Cooker",
+        "category": "Utensils",
+        "sales": 120.5
+    }
+]
