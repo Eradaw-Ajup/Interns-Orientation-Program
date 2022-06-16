@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Start Page</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="jumbotron text-center">
+            <h1>Save Data to File</h1>
+            <p>Enter some text into the given field and submit, to get a link to the file containing the input data.</p>
+        </div>
+        <div style="align: center">
+        <div class="container">
+            <form action="saveToFile" method="POST">
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Input Text</label>
+                    <input type="text" name="data"  class="form-control"  id="exampleFormControlInput1" placeholder="Some sample text..." >
+                    <hr>
+                    <div align="right">
+                    <input type="submit" class="btn btn-primary" value="Save!">
+                    </div>
+                </div>
+
+            </form>
+        </div>
+        </div>
+    </body>
+</html>
